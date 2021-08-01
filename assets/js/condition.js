@@ -24,3 +24,16 @@ var myBudget2 = 150000;
 if (iphonePrice2 < myBudget2 ){
     console.log("able to purchase new iphone");
 }
+
+
+
+var iphonePrice2 = 70000;
+var myBudget2 = 15000;
+if (iphonePrice2 < myBudget2 ){
+    console.log("able to purchase new iphone");
+}else{
+    console.log("mybudget is low , so unable to purchase the iphone");
+}
+
+
+
