@@ -1,0 +1,106 @@
+/* ========================== 
+        Google fonts 
+============================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap');
+
+/* ========================== 
+    variables
+============================ */
+:root{
+
+    /* ---fonts variable---- */
+    --mainFont :'Montserrat', sans-serif;
+    --fontBold:700;
+    --fontSemi:600;
+    --fontMedium:500;
+    --fontRegular:300;
+    --fontLight:200;
+    
+
+    /* ---color variable---- */
+    --bannerColor:#2D25A0;
+    --loginColor:#E02C6D;
+    --h4color:#18191F;
+    --pColor:#6C6C6C;
+
+
+
+    
+}
+
+
+/* ========================== 
+      Reset CSS
+============================ */
+
+
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+     -webkit-box-flex: 0;
+     -ms-flex: 0 0 auto;
+         flex: 0 0 auto;
+}
+
+
+
+
+
+/* ========================== 
+     Global CSS
+============================ */
+
+
+a,
+a:hover{
+     text-decoration: none;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+}
+
+img{
+     max-width: 100%;
+}
+
+
+
+body{
+    font-family:var(--mainFont);
+    background-color: lightblue;
+}
+
+
+
+/* ========================== 
+     Reusable CSS
+============================ */
+
+
+.container{
+     max-width: 1160px;
+     margin: 0 auto;
+}
+
+
+.row{
+    padding: 2rem;
+}
+
+
+
+/* @media only screen and (max-width:768px){
+  
+} */
