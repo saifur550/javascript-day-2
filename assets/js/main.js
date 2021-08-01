@@ -46,11 +46,7 @@ console.log(userName3.length);
 var userName3 = [ 'james', 'Doni', 'david', ' ben stock'];
 userName3[0] = "rocky";
 userName3.push("rahul");
-userName3.pop();
-userName3.pop();
-userName3.pop();
-userName3.pop();
-userName3.pop();
+userName3.shift();
 console.log(userName3);
 console.log(userName3.length);
 
