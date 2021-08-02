@@ -54,6 +54,30 @@
 // nums.indexOf(0);
 // nums1.indexOf(9);
 // console.log(nums1);
-var a= 6;
-var b = 6
-console.log(a!=b);
+
+
+
+function btnColor1(){
+    var colorChange = document.querySelector('#heading');
+    if(colorChange.innerHTML == "red"){
+        colorChange.innerHTML = "select color : red"
+    }else {
+        colorChange.innerHTML = "red"
+    }
+}
+function btnColor2(){
+    var colorChange = document.querySelector('#heading');
+    if(colorChange.innerHTML == "green"){
+        colorChange.innerHTML = "select color : green"
+    }else {
+        colorChange.innerHTML = "green"
+    }
+}
+function btnColor3(){
+    var colorChange = document.querySelector('#heading');
+    if(colorChange.innerHTML == "yellow"){
+        colorChange.innerHTML = "select color : yellow"
+    }else {
+        colorChange.innerHTML = "yellow"
+    }
+}
